@@ -1,15 +1,11 @@
-# Clinical Trial & Corporate Disclosure Extraction Pipeline
+# Clinical Trial Pipeline
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7+-brightgreen.svg)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue.svg)
-![Status](https://img.shields.io/badge/status-complete-success.svg)
 
 A comprehensive data pipeline that extracts, processes, and analyzes clinical trial data from ClinicalTrials.gov, SEC filings, and scientific publications. This project focuses on industry-sponsored interventional clinical trials for Pulmonary Arterial Hypertension (PAH) and structures the data into PostgreSQL-compatible objects with rich metadata.
 
-<p align="center">
-  <img src="https://ucarecdn.com/a46fb778-5be6-405b-bd93-8ce2a67e5fcd/-/preview/500x500/" width="500" alt="Pipeline Architecture">
-</p>
 
 ## 📋 Table of Contents
 
@@ -45,6 +41,7 @@ A comprehensive data pipeline that extracts, processes, and analyzes clinical tr
   - Web-based dashboard
 
 ## 🏗 Project Structure
+```
 
 clinicaltrials/
 ├── config/                  # Configuration files
@@ -70,7 +67,7 @@ clinicaltrials/
 │   ├── streamlit/           # Streamlit dashboard
 │   └── utils/               # Utility functions
 └── README.md
-
+```
 
 ## 🚀 Setup Instructions
 
