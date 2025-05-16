@@ -1,0 +1,22 @@
+{
+  "clinicaltrials": {
+    "condition": "Pulmonary Arterial Hypertension",
+    "sponsor_type": "Industry",
+    "study_type": "Interventional",
+    "min_start_date": "2015-01-01"
+  },
+  "sec": {
+    "api_key": ""
+  },
+  "google_search": {
+    "api_key": "",
+    "search_engine_id": ""
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5433,
+    "database": "clinicaltrials",
+    "user": "postgres",
+    "password": "ashwin"
+  }
+}
